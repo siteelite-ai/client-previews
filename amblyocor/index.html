@@ -1150,6 +1150,61 @@
             stroke: currentColor !important;
         }
 
+        .header-secondary__button.button_secondary {
+            background: #ffffff !important;
+            border: 1px solid rgba(40, 72, 149, .46) !important;
+            color: #284895 !important;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .85) !important;
+        }
+
+        .header-secondary__button.button_secondary::before,
+        .header-secondary__button.button_secondary::after {
+            background: transparent !important;
+        }
+
+        .header-secondary__button.button_secondary .button__text,
+        .header-secondary__button.button_secondary .text,
+        .header-secondary__button.button_secondary .icon {
+            color: #284895 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+        .header-secondary__button.button_secondary:hover {
+            background: #284895 !important;
+            border-color: #284895 !important;
+            color: #ffffff !important;
+        }
+
+        .header-secondary__button.button_secondary:hover .button__text,
+        .header-secondary__button.button_secondary:hover .text,
+        .header-secondary__button.button_secondary:hover .icon {
+            color: #ffffff !important;
+        }
+
+        .front-form .btn-block__social .button_social,
+        .front-form .btn-block__social .button_social:focus {
+            background: #ffffff !important;
+            border: 1px solid #284895 !important;
+            color: #284895 !important;
+        }
+
+        .front-form .btn-block__social .button_social:hover {
+            background: #284895 !important;
+            border-color: #284895 !important;
+            color: #ffffff !important;
+        }
+
+        .front-form .btn-block__social .button_social .icon,
+        .front-form .btn-block__social .button_social svg,
+        .front-form .btn-block__social .button_social svg * {
+            color: currentColor !important;
+            fill: currentColor !important;
+            stroke: none !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
         .footer {
             background-color: #284895 !important;
             background-image: linear-gradient(135deg, rgba(40, 72, 149, .98), rgba(34, 58, 124, .96)), var(--amblyocor-brand-bg) !important;
@@ -1239,6 +1294,35 @@
         .footer__made-by,
         .footer__made-by * {
             color: rgba(255, 255, 255, .62) !important;
+        }
+
+        .front-form.regular-form .btn-block__social .button.button_social {
+            background: #ffffff !important;
+            border-color: #284895 !important;
+            color: #284895 !important;
+        }
+
+        .front-form.regular-form .btn-block__social .button.button_social .icon,
+        .front-form.regular-form .btn-block__social .button.button_social svg,
+        .front-form.regular-form .btn-block__social .button.button_social svg * {
+            color: #284895 !important;
+            fill: currentColor !important;
+            stroke: none !important;
+            opacity: 1 !important;
+        }
+
+        .front-form.regular-form .btn-block__social .button.button_social:hover {
+            background: #284895 !important;
+            border-color: #284895 !important;
+            color: #ffffff !important;
+        }
+
+        .front-form.regular-form .btn-block__social .button.button_social:hover .icon,
+        .front-form.regular-form .btn-block__social .button.button_social:hover svg,
+        .front-form.regular-form .btn-block__social .button.button_social:hover svg * {
+            color: #ffffff !important;
+            fill: currentColor !important;
+            stroke: none !important;
         }
 
         @media (max-width: 767px) {
